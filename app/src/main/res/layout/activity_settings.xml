@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Settings"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Busses?"/>
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="RadioGroup1">
+        <RadioButton
+            android:id="@+id/rb11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dislike"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/rb12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ignore"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/rb14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Love!"
+            android:layout_weight="1"
+            />
+    </RadioGroup>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Fiber?"/>
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="RadioGroup2">
+        <RadioButton
+            android:id="@+id/rb21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dislike"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/rb22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ignore"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Love!"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Government Services?"/>
+
+    <RadioGroup
+        android:id="@+id/rg3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="RadioGroup2">
+        <RadioButton
+            android:id="@+id/rb31"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dislike"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/rb32"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ignore"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb33"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Love"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Schools?"/>
+
+    <RadioGroup
+        android:id="@+id/rg4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="RadioGroup2">
+        <RadioButton
+            android:id="@+id/rb41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dislike"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/rb42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ignore"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb43"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Love"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Playgrounds?"/>
+
+    <RadioGroup
+        android:id="@+id/rg5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:tag="RadioGroup2">
+        <RadioButton
+            android:id="@+id/rb51"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dislike"
+            android:layout_weight="1"
+            />
+        <RadioButton
+            android:id="@+id/rb52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ignore"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb53"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Like"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/rb54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Love"
+            android:layout_weight="1"/>
+    </RadioGroup>
+
+
+
+
+</LinearLayout>
